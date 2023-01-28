@@ -18,6 +18,7 @@ targetScope = 'resourceGroup'
   'westeurope'
   'japaneast'
   'southeastasia'
+  'uaenorth'
 ])
 @description('The hub\'s regional affinity. All resources tied to this hub will also be homed in this region. The network team maintains this approved regional list which is a subset of zones with Availability Zone support.')
 param location string
